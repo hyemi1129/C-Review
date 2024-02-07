@@ -14,3 +14,17 @@ int main() {
     return 0;
 }
  */
+
+#include <stdio.h>
+
+int main(){
+	char n;
+	while(1){
+		scanf("%c ", &n);
+		if(n=='q'){
+			printf("%c\n", n);
+			break;
+		}
+		printf("%c\n", n);
+	}
+}
