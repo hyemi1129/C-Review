@@ -15,7 +15,7 @@ int main() {
 }
  */
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 int main(){
 	char n;
@@ -27,4 +27,4 @@ int main(){
 		}
 		printf("%c\n", n);
 	}
-}
+} */
