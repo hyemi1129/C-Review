@@ -201,11 +201,20 @@ int main(){
 	printf("%d", r*g*b);
 } */
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 int main(){
 	int  i;
 	for(i=1; i<5; i++){
+		printf("%d", i);
+	}
+} */
+
+#include <stdio.h>
+
+int main(){
+	int  i;
+	for(i=1; i<=5; i++){
 		printf("%d", i);
 	}
 }
