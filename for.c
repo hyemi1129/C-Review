@@ -210,11 +210,56 @@ int main(){
 	}
 } */
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 int main(){
-	int  i;
-	for(i=1; i<=5; i++){
-		printf("%d", i);
+	int a, b, i, j;
+	scanf("%d %d", &a, &b);
+	for(i=a; i<=b; i++){
+		for(j=1; j<=9; j++){
+			printf("%d*%d=%d\n", i, j, i*j);
+		}
 	}
-}
+} */
+
+/* #include <stdio.h>
+
+int main(){
+	int a, i, j;
+	scanf("%d", &a);
+	for(i=1; i<=a; i++){
+		for(j=1; j<=a; j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+} */
+
+/* #include <stdio.h>
+
+int main(){
+	int n, i, j;
+	scanf("%d", &n);
+	for(i=1; i<=n; i++){
+		for(j=1; j<=i; j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+} */
+
+/* #include <stdio.h>
+
+int main(){
+	int n, i, j;
+	scanf("%d", &n);
+	for(i=0; i<n; i++){
+		for(j=0; j<i; j++){
+			printf(" ");
+		}
+		for(int j=0; j<n-i; j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+} */
