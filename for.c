@@ -1,3 +1,6 @@
+/* 반복문 복습 */
+
+
 /* #include <stdio.h>
 
 int main(){
