@@ -36,3 +36,15 @@ int main(){
 		printf("%c\n", n);
 	}
 } */
+
+//문법
+/* while(조건식){
+    실행문;
+}
+
+//사용법
+int i=1;
+while(i<10){
+    printf("%d\n",i);
+    i++;
+} */
