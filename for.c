@@ -8,7 +8,6 @@
 증감부는 반복을 수행할 때 어떠한 간격으로 처리할지를 알려주는 곳입니다.
  */
 
-/* 이중 for문 ex) 구구단 */
 
 
 
@@ -224,7 +223,9 @@ int main(){
 	}
 } */
 
-/* #include <stdio.h>
+/* 
+이중 for문 ex) 구구단
+#include <stdio.h>
 
 int main(){
 	int a, b, i, j;
