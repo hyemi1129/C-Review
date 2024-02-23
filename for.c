@@ -223,9 +223,7 @@ int main(){
 	}
 } */
 
-/* 
-이중 for문 ex) 구구단
-#include <stdio.h>
+/* #include <stdio.h>
 
 int main(){
 	int a, b, i, j;
