@@ -28,7 +28,7 @@ int main(){
 int main() {
     int n;
 
-    for (;;) {
+    for (;;) { #무한?
         scanf("%d", &n);
         if (n == 0) {
             break;
